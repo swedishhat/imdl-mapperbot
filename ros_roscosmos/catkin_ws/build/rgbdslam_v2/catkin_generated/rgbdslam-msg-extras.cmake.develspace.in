@@ -1,0 +1,2 @@
+set(rgbdslam_MESSAGE_FILES "")
+set(rgbdslam_SERVICE_FILES "/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/src/rgbdslam_v2/srv/rgbdslam_ros_ui.srv;/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/src/rgbdslam_v2/srv/rgbdslam_ros_ui_b.srv;/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/src/rgbdslam_v2/srv/rgbdslam_ros_ui_f.srv;/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/src/rgbdslam_v2/srv/rgbdslam_ros_ui_s.srv")

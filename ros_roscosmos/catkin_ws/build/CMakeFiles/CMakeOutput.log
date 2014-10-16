@@ -291,3 +291,88 @@ Linking C executable cmTryCompileExec340428008
 make[1]: Leaving directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
 
 
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2402835262/fast"
+make[1]: Entering directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2402835262.dir/build.make CMakeFiles/cmTryCompileExec2402835262.dir/build
+make[2]: Entering directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2402835262.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -O3 -fPIC -std=c++0x  -Wno-deprecated  -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2402835262.dir/CheckSymbolExists.cxx.o -c /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2402835262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2402835262.dir/link.txt --verbose=1
+/usr/bin/c++   -O3 -fPIC -std=c++0x  -Wno-deprecated     CMakeFiles/cmTryCompileExec2402835262.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2402835262 -rdynamic 
+make[2]: Leaving directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+File /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2715477335/fast"
+make[1]: Entering directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2715477335.dir/build.make CMakeFiles/cmTryCompileExec2715477335.dir/build
+make[2]: Entering directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2715477335.dir/src.c.o
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2715477335.dir/src.c.o   -c /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2715477335
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2715477335.dir/link.txt --verbose=1
+/usr/bin/cc    -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec2715477335.dir/src.c.o  -o cmTryCompileExec2715477335 -rdynamic 
+make[2]: Leaving directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2323387003/fast"
+make[1]: Entering directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2323387003.dir/build.make CMakeFiles/cmTryCompileExec2323387003.dir/build
+make[2]: Entering directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2323387003.dir/src.cxx.o
+/usr/bin/c++    -O3 -fPIC -std=c++0x  -Wno-deprecated -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2323387003.dir/src.cxx.o -c /home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2323387003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2323387003.dir/link.txt --verbose=1
+/usr/bin/c++   -O3 -fPIC -std=c++0x  -Wno-deprecated -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec2323387003.dir/src.cxx.o  -o cmTryCompileExec2323387003 -rdynamic 
+make[2]: Leaving directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/jimbo/Projects/imdl-mapperbot/ros_roscosmos/catkin_ws/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

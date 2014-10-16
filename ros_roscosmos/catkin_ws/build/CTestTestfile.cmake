@@ -5,3 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
+SUBDIRS(freenect_stack/freenect_launch)
+SUBDIRS(freenect_stack/freenect_stack)
+SUBDIRS(beginner_tutorials)
+SUBDIRS(freenect_stack/freenect_camera)

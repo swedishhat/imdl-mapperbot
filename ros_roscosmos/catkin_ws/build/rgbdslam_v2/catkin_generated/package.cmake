@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rgbdslam")
+set(rgbdslam_MAINTAINER "Felix Endres <endres@informatik.uni-freiburg.de>")
+set(rgbdslam_DEPRECATED "")
+set(rgbdslam_VERSION "0.2.0")
+set(rgbdslam_BUILD_DEPENDS "pcl_conversions" "pcl_ros" "roscpp" "sensor_msgs" "geometry_msgs" "std_msgs" "octomap" "visualization_msgs" "libpcl-all-dev" "tf" "libg2o" "message_generation" "image_transport" "rosbag" "glut" "libglew-dev")
+set(rgbdslam_RUN_DEPENDS "pcl_conversions" "pcl_ros" "roscpp" "std_msgs" "sensor_msgs" "octomap" "visualization_msgs" "rosbag" "cv_bridge" "libpcl-all" "tf" "libg2o" "message_runtime")
+set(rgbdslam_BUILDTOOL_DEPENDS "catkin")
